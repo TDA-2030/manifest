@@ -1,7 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-	<remote fetch="https://github.com/newbie-plan/" name="origin"/>
+	<remote fetch="https://github.com/esp-arkui/" name="origin"/>
+	<default remote="origin" revision="master" sync-j="4" />
+	<!-- https://openharmony.gitee.com/openharmony/ -->
+	<!-- <project name="vmix" path="vmixlocal" remote="origin" revision="main" upstream="main"/> -->
+	<!-- <project name="amix" path="amixlocal" remote="origin" revision="main" upstream="main"/> -->
+  <project name="esp-arkui" path="esp-arkui" groups="default,ohos:mini,ohos:small"/>
+  <project name="ability_ability_lite" path="foundation/ability/ability_lite" groups="default,ohos:mini,ohos:small"/>
+  <project name="arkui_ace_engine_lite" path="foundation/arkui/ace_engine_lite" groups="default,ohos:mini,ohos:small"/>
+  <project name="systemabilitymgr_samgr_lite" path="foundation/systemabilitymgr/samgr_lite" groups="default,ohos:mini,ohos:small"/>
+  <project name="commonlibrary_utils_lite" path="commonlibrary/utils_lite" groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system,ohos:chipset"/>
+  <project name="global_i18n_lite" path="base/global/i18n_lite" groups="default,ohos:mini,ohos:small"/>
+  <project name="global_resource_management_lite" path="base/global/resource_management_lite" groups="default,ohos:mini,ohos:small"/>
+  <project name="bundlemanager_bundle_framework_lite" path="foundation/bundlemanager/bundle_framework_lite" groups="default,ohos:mini,ohos:small"/>
+  <project name="arkui_ui_lite" path="foundation/arkui/ui_lite" groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system"/>
+  <project name="graphic_graphic_utils_lite" path="foundation/graphic/graphic_utils_lite" groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system"/>
+  <project name="window_window_manager_lite" path="foundation/window/window_manager_lite" groups="default,ohos:mini,ohos:small"/>
+  <project name="third_party_bounds_checking_function" path="third_party/bounds_checking_function" groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system,ohos:chipset"/>
+  <project name="third_party_freetype" path="third_party/freetype" groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system"/>
+  <project name="third_party_icu" path="third_party/icu" groups="default,ohos:small,ohos:standard,ohos:system"/>
+  <project name="third_party_jerryscript" path="third_party/jerryscript" groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system"/>
+  <project name="third_party_libjpeg-turbo" path="third_party/libjpeg-turbo" groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system,ohos:chipset"/>
+  <project name="third_party_libpng" path="third_party/libpng" groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system,ohos:chipset"/>
+  <project name="third_party_qrcodegen" path="third_party/qrcodegen" groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system"/>
+  <project name="third_party_zlib" path="third_party/zlib" groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system,ohos:chipset"/>
 
-	<project name="vmix" path="vmixlocal" remote="origin" revision="main" upstream="main"/>
-	<project name="amix" path="amixlocal" remote="origin" revision="main" upstream="main"/>
 </manifest>
